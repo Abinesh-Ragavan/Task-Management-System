@@ -19,7 +19,7 @@ const FindIdTask = () => {
   const fetchData = async (id) => {
     try {
       setError(null); // Clear any previous errors before fetching
-      const response = await fetch(`http://localhost:9192/tasks/task/${id}`);
+      const response = await fetch(`http://51.21.130.88:9192/tasks/task/${id}`);
       if (!response.ok) {
         throw new Error('ID does not exist');
       }

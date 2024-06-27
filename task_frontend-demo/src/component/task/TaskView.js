@@ -12,7 +12,7 @@ const TaskView = () => {
     },[])
 
     const loadTasks=async()=>{
-        const result =await axios.get("http://localhost:9192/tasks",{validateStatus:()=>{
+        const result =await axios.get("http://51.21.130.88:9192/tasks",{validateStatus:()=>{
             return true;
         }});
         if(result.status===302){
@@ -23,7 +23,7 @@ const TaskView = () => {
 
 
     const handleDelete=async(id)=>{
-        await axios.delete(`http://localhost:9192/tasks/delete/${id}`);
+        await axios.delete(`http://51.21.130.88:9192/tasks/delete/${id}`);
         loadTasks();
 
     }

@@ -19,7 +19,7 @@ const StatusCheck = () => {
   const fetchData = async (status) => {
     try {
       setError(null); // Clear any previous errors before fetching
-      const response = await fetch(`http://localhost:9192/tasks/task/findbystatus/${status}`);
+      const response = await fetch(`http://51.21.130.88:9192/tasks/task/findbystatus/${status}`);
      
       const result = await response.json();
        if (result.length === 0) {

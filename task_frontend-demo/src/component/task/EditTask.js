@@ -40,7 +40,7 @@ const EditTask = () => {
 
 	const loadTask = async () => {
 		const result = await axios.get(
-			`http://localhost:9192/tasks/task/${id}`
+			`http://51.21.130.88:9192/tasks/task/${id}`
 		);
 		setTask(result.data);
 	};
@@ -54,7 +54,7 @@ const EditTask = () => {
 	const updateTask = async (e) => {
 		e.preventDefault();
 		await axios.put(
-			`http://localhost:9192/tasks/update/${id}`,
+			`http://51.21.130.88:9192/tasks/update/${id}`,
 			task
 		);
 		navigate("/view-tasks");

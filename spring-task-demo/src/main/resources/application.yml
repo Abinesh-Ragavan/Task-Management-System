@@ -2,9 +2,9 @@ server:
   port: 9192
 spring:
   datasource:
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/task_db
+    username: admin
+    password: password
+    url: jdbc:mysql://employeems.czagg4e06hak.eu-north-1.rds.amazonaws.com:3306/employeeMS
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true

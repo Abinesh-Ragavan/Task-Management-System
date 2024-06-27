@@ -24,7 +24,7 @@ const TaskPofile = () => {
 
 	const loadTask = async () => {
 		const result = await axios.get(
-			`http://localhost:9192/tasks/task/${id}`
+			`http://51.21.130.88:9192/tasks/task/${id}`
 		);
 		setTask(result.data);
 	};

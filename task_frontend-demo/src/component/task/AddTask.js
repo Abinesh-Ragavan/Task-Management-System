@@ -33,7 +33,7 @@ let navigate=useNavigate();
 const saveTask=async(e)=>{
     e.preventDefault();
 
-    await axios.post("http://localhost:9192/tasks",task);
+    await axios.post("http://51.21.130.88:9192/tasks",task);
 
 
 navigate("/view-tasks");

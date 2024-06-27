@@ -78,6 +78,7 @@ public class TaskService implements ITaskService{
         return tasks;
     }
 
+
     private boolean TaskAlreadyExists(String email) {
         return taskRepository.findByEmail(email).isPresent();
     }

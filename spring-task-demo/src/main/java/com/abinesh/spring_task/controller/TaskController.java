@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("http://employeemsdemo.s3-website.eu-north-1.amazonaws.com")
 @RestController
 @RequestMapping("/tasks")
 @RequiredArgsConstructor

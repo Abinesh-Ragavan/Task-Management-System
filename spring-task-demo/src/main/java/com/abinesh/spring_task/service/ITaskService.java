@@ -11,4 +11,5 @@ public interface ITaskService {
     Task getTaskById(Long id);
     void deleteTask(Long id);
     List<Task>getTasksByStatus(String status);
+
 }
