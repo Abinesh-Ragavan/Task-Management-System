@@ -4,27 +4,24 @@ This repository contains the frontend and backend components of a Task Managemen
 Frontend Setup (React.js)
 Prerequisites
 Node.js and npm installed on your machine.
+
 Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/task-management-app.git
 cd task-management-app/frontend
-Install dependencies:
 
-bash
-Copy code
+
+Install dependencies:
 npm install
 Configuration
-Configure API Endpoint:
 
+
+Configure API Endpoint:
 Update the API endpoint in src/config.js to point to your Spring Boot backend.
 Running the Application
-Start the development server:
 
-bash
-Copy code
+
+Start the development server:
 npm start
 Open your browser and visit http://localhost:3000 to view the application.
 
