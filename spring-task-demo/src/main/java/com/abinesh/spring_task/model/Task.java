@@ -9,10 +9,8 @@ import org.hibernate.annotations.NaturalId;
 
 @Entity
 //@Data
-@Setter
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+
+@Data
 public class Task {
 
     @Id
